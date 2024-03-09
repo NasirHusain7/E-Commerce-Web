@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- =========Font and Icons Links Start============ -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- =========Font and Icons Links End============ -->
+  </head>
+  <body>
+    <div class="parent">
+      <nav>
+        <!-- =======Top Header======= -->
+        <div class="top_header">
+          <div class="head-logo">
+            <i class="fa fa-brands fa-square-facebook"></i>
+            <i class="fa fa-brands fa-twitter"></i>
+            <i class="fa fa-brands fa-instagram"></i>
+            <i class="fa fa-brands fa-linkedin"></i>
+          </div>
+          <div class="head-text">
+            <span>FREE SHIPPING THIS WEEK ORDER OVER - $55</span>
+          </div>
+          <div class="head-dropdown">
+            <select name="currency" id="currency">
+              <option value="USD $">USD $</option>
+              <option value="Rs ₹">Rs ₹</option>
+              <option value="P £">P £</option>
+              <option value="KWD د.ك">KWD د.ك</option>
+            </select>
+            <select name="language" id="language">
+              <option value="ENGLISH">ENGLISH</option>
+              <option value="हिन्दी">हिन्दी</option>
+              <option value="اردو">اردو</option>
+              <option value="عربي">عربي</option>
+              <option value="संस्कृत">संस्कृत</option>
+            </select>
+          </div>
+          <!-- =======Top Header======= -->
+        </div>
+        <!-- =======Top Search Bar Start======= -->
+        <div class="search-bar">
+          <div class="heading">
+            <span>E-Commerce</span>
+          </div>
+          <div class="search-box">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Enter your product name.."
+            />
+            <i class="fa fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="icon">
+            <i class="fa fa-solid fa-user"></i>
+            <i class="fa fa-solid fa-heart"></i>
+            <i class="fa fa-solid fa-bag-shopping"></i>
+          </div>
+        </div>
+        <!-- =======Top Search Bar End======= -->
+        <!-- =======Navigation Bar (Categories)======= -->
+        <div class="nav-bar">
+          <ul class="nav-bar Categories">
+            <li><a href="">HOME</a></li>
+            <li><a href="">CATEGORIES</a></li>
+            <li><a href="">MEN'S</a></li>
+            <li><a href="">WOMEN'S</a></li>
+            <li><a href="">JEWELRY</a></li>
+            <li><a href="">PERFUME</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">HOT OFFERS</a></li>
+          </ul>
+        </div>
+        <!-- =======Navigation Bar (Categories)======= -->
+      </nav>
+      <!-- =======Banner top Start======= -->
+      <div class="banner">
+        <div class="image">
+          <div class="banner-text">
+            <p class="trending-item">Trending Item</p>
+            <h1 class="banner-heading">WOMEN'S LATEST FASHION SALE</h1>
+            <p class="banner-price">starting at $ <strong>20.</strong>00</p>
+            <br />
+            <button class="shop-now">SHOP NOW</button>
+          </div>
+        </div>
+      </div>
+      <!-- =======Banner top End======= -->
+      <!-- =======Item option (product option) Start======== -->
+      <div class="item-option">
+        <div class="small-item-option min-box-1">
+          <div class="svg-icon">
+            <img src="./Images/small 0.svg" alt="item-frok" />
+          </div>
+          <div class="item-option-text">
+            <div class="small-item-text">
+              <p>DRESS & FROCK</p>
+              <p>(53)</p>
+            </div>
+            <a href="">Show All</a>
+          </div>
+        </div>
+        <div class="small-item-option min-box-2">
+          <div class="svg-icon">
+            <img src="./Images/small 1.svg" alt="item-frok" />
+          </div>
+          <div class="item-option-text">
+            <div class="small-item-text">
+              <p>WINTER WEAR</p>
+              <p>(59)</p>
+            </div>
+            <a href="">Show All</a>
+          </div>
+        </div>
+        <div class="small-item-option min-box-3">
+          <div class="svg-icon">
+            <img src="./Images/small 2.svg" alt="item-frok" />
+          </div>
+          <div class="item-option-text">
+            <div class="small-item-text">
+              <p>GLASSES & LENS</p>
+              <p>(69)</p>
+            </div>
+            <a href="">Show All</a>
+          </div>
+        </div>
+        <div class="small-item-option min-box-4">
+          <div class="svg-icon">
+            <img src="./Images/small 3.svg" alt="item-frok" />
+          </div>
+          <div class="item-option-text">
+            <div class="small-item-text">
+              <p>SHORTS & JEANS</p>
+              <p>(83)</p>
+            </div>
+            <a href="">Show All</a>
+          </div>
+        </div>
+      </div>
+      <!-- =======Item option (product option) End======== -->
+      <!-- =======Main center Box Start======= -->
+      <div class="main-center">
+        <!-- =======Left side bar main Start======= -->
+        <div class="left-side-bar">
+          <!-- =======Category Start======= -->
+          <div class="category">
+            <p class="category-heading">CATEGORY</p>
+            <br /><br />
+            <div class="category-min-box category-1">
+              <img src="./Images/small 0.svg" alt="image" />
+              <div class="category-text">
+                <p>Clothes</p>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+            <div class="category-min-box category-2">
+              <img src="./Images/./footwear.svg" alt="image" />
+              <div class="category-text">
+                <p>Footwear</p>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+            <div class="category-min-box category-3">
+              <img src="./Images/./rings.svg" alt="image" />
+              <div class="category-text">
+                <p>Rings</p>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+            <div class="category-min-box category-4">
+              <img src="./Images/./perfume.svg" alt="image" />
+              <div class="category-text">
+                <p>Perfumes</p>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+            <div class="category-min-box category-5">
+              <img src="./Images/./cosmetic.svg" alt="image" />
+              <div class="category-text">
+                <p>Cosmetics</p>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+            <div class="category-min-box category-6">
+              <img src="./Images/./bag.svg" alt="image" />
+              <div class="category-text">
+                <p>Bags</p>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+            <div class="category-min-box category-7">
+              <img src="./Images/./small 2.svg" alt="image" />
+              <div class="category-text">
+                <p>Eay Wear</p>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- =======Category End======= -->
+          <!-- =======Best Seller Start====== -->
+          <div class="best-seller">
+            <p class="b-s-heading">BEST SELLER</p>
+            <div class="b-s-min-box b-s-1">
+              <img src="./Images/asset 9.jpeg" alt="product image" />
+              <div class="b-s-text">
+                <p>Baby Fabric Shoes</p>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="b-s-price">
+                  <s>$4.00</s>
+                  <span>$3.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="b-s-min-box b-s-2">
+              <img src="./Images/asset 10.jpeg" alt="product image" />
+              <div class="b-s-text">
+                <p>Men's Hoodies T-Shirt</p>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="b-s-price">
+                  <s>$4.00</s>
+                  <span>$3.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="b-s-min-box b-s-3">
+              <img src="./Images/asset 11.jpeg" alt="product image" />
+              <div class="b-s-text">
+                <p>Men's T-Shirt</p>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="b-s-price">
+                  <s>$4.00</s>
+                  <span>$3.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="b-s-min-box b-s-4">
+              <img src="./Images/asset 12.jpeg" alt="product image" />
+              <div class="b-s-text">
+                <p>Woolen Hat For Men</p>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="b-s-price">
+                  <s>$4.00</s>
+                  <span>$3.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- =======Best Seller End====== -->
+        </div>
+        <!-- =======Left side bar main End======= -->
+        <!-- =======Right side bar main Start======= -->
+        <div class="right-side-bar">
+          <!-- =======Min Box Start======= -->
+          <div class="right-box-items">
+            <div class="min-box right-1">
+              <p class="min-box-heading">New Arrivals</p>
+              <hr />
+              <div class="small-min-box 1">
+                <img src="./Images/asset 9.jpeg" alt="product image" />
+                <div class="min-box-text">
+                  <p>Relaxed Short Full Sleep....</p>
+                  <span>Clothes</span>
+                  <div class="min-box-price">
+                    <span>$45.00</span>
+                    <s>$50.00</s>
+                  </div>
+                </div>
+              </div>
+              <div class="small-min-box 2">
+                <img src="./Images/asset 13.jpeg" alt="product image" />
+                <div class="min-box-text">
+                  <p>Girls Pnk Embro Desig......</p>
+                  <span>Clothes</span>
+                  <div class="min-box-price">
+                    <span>$45.00</span>
+                    <s>$50.00</s>
+                  </div>
+                </div>
+              </div>
+              <div class="small-min-box 3">
+                <img src="./Images/asset 14.jpeg" alt="product image" />
+                <div class="min-box-text">
+                  <p>Black Floral Wrap Midi......</p>
+                  <span>Clothes</span>
+                  <div class="min-box-price">
+                    <span>$45.00</span>
+                    <s>$50.00</s>
+                  </div>
+                </div>
+              </div>
+              <div class="small-min-box 4">
+                <img src="./Images/asset 15.jpeg" alt="product image" />
+                <div class="min-box-text">
+                  <p>Pure Garment Dyed C.....</p>
+                  <span>Mens Fashion</span>
+                  <div class="min-box-price">
+                    <span>$45.00</span>
+                    <s>$50.00</s>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="min-box right-2">
+              <p class="min-box-heading">Trending</p>
+              <hr />
+              <div class="small-min-box 1">
+                <img src="./Images/asset 16.jpeg" alt="product image" />
+                <div class="min-box-text">
+                  <p>Running & Trekking Sh......</p>
+                  <span>Sports</span>
+                  <div class="min-box-price">
+                    <span>$45.00</span>
+                    <s>$50.00</s>
+                  </div>
+                </div>
+              </div>
+              <div class="small-min-box 2">
+                <img src="./Images/asset 17.jpeg" alt="product image" />
+                <div class="min-box-text">
+                  <p>Trekking & Running Sh......</p>
+                  <span>Sports</span>
+                  <div class="min-box-price">
+                    <span>$45.00</span>
+                    <s>$50.00</s>
+                  </div>
+                </div>
+              </div>
+              <div class="small-min-box 3">
+                <img src="./Images/asset 18.jpeg" alt="product image" />
+                <div class="min-box-text">
+                  <p>Womens Party Wear S.......</p>
+                  <span>Party Wear</span>
+                  <div class="min-box-price">
+                    <span>$45.00</span>
+                    <s>$50.00</s>
+                  </div>
+                </div>
+              </div>
+              <div class="small-min-box 4">
+                <img src="./Images/asset 19.jpeg" alt="product image" />
+                <div class="min-box-text">
+                  <p>Sport Claw Women's......</p>
+                  <span>Sports</span>
+                  <div class="min-box-price">
+                    <span>$45.00</span>
+                    <s>$50.00</s>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="min-box right-3">
+              <p class="min-box-heading">Top Rated</p>
+              <hr />
+              <div class="small-min-box 1">
+                <img src="./Images/asset 20.jpeg" alt="product image" />
+                <div class="min-box-text">
+                  <p>Pocket Watch Leather......</p>
+                  <span>Watches</span>
+                  <div class="min-box-price">
+                    <span>$45.00</span>
+                    <s>$50.00</s>
+                  </div>
+                </div>
+              </div>
+              <div class="small-min-box 2">
+                <img src="./Images/asset 21.jpeg" alt="product image" />
+                <div class="min-box-text">
+                  <p>Silver Deer Heart Neck.....</p>
+                  <span>Jewellery</span>
+                  <div class="min-box-price">
+                    <span>$45.00</span>
+                    <s>$50.00</s>
+                  </div>
+                </div>
+              </div>
+              <div class="small-min-box 3">
+                <img src="./Images/asset 22.jpeg" alt="product image" />
+                <div class="min-box-text">
+                  <p>Titan 100 MI Womens......</p>
+                  <span>Perfumes</span>
+                  <div class="min-box-price">
+                    <span>$45.00</span>
+                    <s>$50.00</s>
+                  </div>
+                </div>
+              </div>
+              <div class="small-min-box 4">
+                <img src="./Images/asset 23.jpeg" alt="product image" />
+                <div class="min-box-text">
+                  <p>Men's Leather Reversi.....</p>
+                  <span>Belt</span>
+                  <div class="min-box-price">
+                    <span>$45.00</span>
+                    <s>$50.00</s>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- =======Min Box End======= -->
+          <!-- =======Mid Box right Start======= -->
+          <div class="mid-box-right">
+            <p class="mid-box-heading">Deal of the Day</p>
+            <hr />
+            <div class="big-pro-box">
+              <div class="shampoo">
+                <img src="./Images/asset 24.jpeg" alt="" />
+              </div>
+              <div class="shampoo-text">
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h5 class="shampoo-heading">
+                  SHAMPOO, CONDITIONER & FACEWASH PACKS
+                </h5>
+                <p class="about-shampoo">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. In
+                  sunt adipisci praesentium cupiditate sint eos possimus
+                  voluptas voluptatibus ipsum rem quidem, cum corporis dolorum.
+                  Cum!
+                </p>
+                <div class="shampoo-price">
+                  <span>$150.00</span>
+                  <s>$200.00</s>
+                </div>
+                <button class="shop-now">ADD TO CART</button>
+                <div class="sold-text">
+                  <span>ALREADY SOLD :<strong>20</strong></span>
+                  <span>AVAILABLE :<strong>40</strong></span>
+                </div>
+                <div class="product-total">
+                  <div class="product-sold"></div>
+                </div>
+                <p class="product-time">HURRY UP! OFFER ENDS IN:</p>
+                <div class="product-timer">
+                  <div class="day">
+                    <strong>365</strong>
+                    <span>Days</span>
+                  </div>
+                  <div class="hour">
+                    <strong>24</strong>
+                    <span>Hours</span>
+                  </div>
+                  <div class="mint">
+                    <strong>60</strong>
+                    <span>Mints</span>
+                  </div>
+                  <div class="sec">
+                    <strong>59</strong>
+                    <span>Sec</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- =======Mid Box right End======= -->
+          <!-- =======New products Start======= -->
+          <div class="new-product">
+            <p class="new-product-heading">New Products</p>
+            <hr />
+            <div class="products-item">
+              <div class="item-box">
+                <div class="item n-1">
+                  <img src="./Images/asset 25.jpeg" alt="product" />
+                  <div class="item-text">
+                    <p class="item-name">JACKETS</p>
+                    <span class="item-about">Mens Winter Leathers Jackets</span>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="item-price">
+                      <span>$50.00</span>
+                      <s>$75.00</s>
+                    </div>
+                  </div>
+                </div>
+                <div class="item n-2">
+                  <img src="./Images/asset 26.jpeg" alt="product" />
+                  <div class="item-text">
+                    <p class="item-name">JACKETS</p>
+                    <span class="item-about">Mens Winter Leathers Jackets</span>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="item-price">
+                      <span>$50.00</span>
+                      <s>$75.00</s>
+                    </div>
+                  </div>
+                </div>
+                <div class="item n-3">
+                  <img src="./Images/asset 27.jpeg" alt="product" />
+                  <div class="item-text">
+                    <p class="item-name">JACKETS</p>
+                    <span class="item-about">Mens Winter Leathers Jackets</span>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="item-price">
+                      <span>$50.00</span>
+                      <s>$75.00</s>
+                    </div>
+                  </div>
+                </div>
+                <div class="item n-4">
+                  <img src="./Images/asset 28.jpeg" alt="product" />
+                  <div class="item-text">
+                    <p class="item-name">JACKETS</p>
+                    <span class="item-about">Mens Winter Leathers Jackets</span>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="item-price">
+                      <span>$50.00</span>
+                      <s>$75.00</s>
+                    </div>
+                  </div>
+                </div>
+                <div class="item n-5">
+                  <img src="./Images/asset 29.jpeg" alt="product" />
+                  <div class="item-text">
+                    <p class="item-name">JACKETS</p>
+                    <span class="item-about">Mens Winter Leathers Jackets</span>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="item-price">
+                      <span>$50.00</span>
+                      <s>$75.00</s>
+                    </div>
+                  </div>
+                </div>
+                <div class="item n-6">
+                  <img src="./Images/asset 30.jpeg" alt="product" />
+                  <div class="item-text">
+                    <p class="item-name">JACKETS</p>
+                    <span class="item-about">Mens Winter Leathers Jackets</span>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="item-price">
+                      <span>$50.00</span>
+                      <s>$75.00</s>
+                    </div>
+                  </div>
+                </div>
+                <div class="item n-7">
+                  <img src="./Images/asset 31.jpeg" alt="product" />
+                  <div class="item-text">
+                    <p class="item-name">JACKETS</p>
+                    <span class="item-about">Mens Winter Leathers Jackets</span>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="item-price">
+                      <span>$50.00</span>
+                      <s>$75.00</s>
+                    </div>
+                  </div>
+                </div>
+                <div class="item n-8">
+                  <img src="./Images/asset 21.jpeg" alt="product" />
+                  <div class="item-text">
+                    <p class="item-name">JACKETS</p>
+                    <span class="item-about">Mens Winter Leathers Jackets</span>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="item-price">
+                      <span>$50.00</span>
+                      <s>$75.00</s>
+                    </div>
+                  </div>
+                </div>
+                <div class="item n-9">
+                  <img src="./Images/asset 15.jpeg" alt="product" />
+                  <div class="item-text">
+                    <p class="item-name">JACKETS</p>
+                    <span class="item-about">Mens Winter Leathers Jackets</span>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="item-price">
+                      <span>$50.00</span>
+                      <s>$75.00</s>
+                    </div>
+                  </div>
+                </div>
+                <div class="item n-10">
+                  <img src="./Images/asset 17.jpeg" alt="product" />
+                  <div class="item-text">
+                    <p class="item-name">JACKETS</p>
+                    <span class="item-about">Mens Winter Leathers Jackets</span>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="item-price">
+                      <span>$50.00</span>
+                      <s>$75.00</s>
+                    </div>
+                  </div>
+                </div>
+                <div class="item n-11">
+                  <img src="./Images/asset 19.jpeg" alt="product" />
+                  <div class="item-text">
+                    <p class="item-name">JACKETS</p>
+                    <span class="item-about">Mens Winter Leathers Jackets</span>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="item-price">
+                      <span>$50.00</span>
+                      <s>$75.00</s>
+                    </div>
+                  </div>
+                </div>
+                <div class="item n-12">
+                  <img src="./Images/asset 20.jpeg" alt="product" />
+                  <div class="item-text">
+                    <p class="item-name">JACKETS</p>
+                    <span class="item-about">Mens Winter Leathers Jackets</span>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="item-price">
+                      <span>$50.00</span>
+                      <s>$75.00</s>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- =======New products End======= -->
+        </div>
+        <!-- =======Right side bar main End======= -->
+      </div>
+      <!-- =======Main center Box End======= -->
+      <!-- =======Bottom Main Start======= -->
+      <div class="bottom-main">
+        <!-- =======User Details start======= -->
+        <div class="ceo">
+          <div class="ceo-header">
+            <h1>Testimonial</h1>
+            <hr />
+          </div>
+          <div class="ceo-body">
+            <div class="image-ceo">
+              <img src="./Images/asset 32.jpeg" alt="User pic" />
+            </div>
+            <p class="user-name">ALAN DOE</p>
+            <p class="work">CEO & Founder Invision</p>
+            <i class="fa-solid fa-quote-left"></i>
+            <p class="ceo-about">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+              praesentium assumenda dolore tenetur iste nisi iure error saepe
+              alias eum omnis corrupti, necessitatibus est ab.
+            </p>
+          </div>
+        </div>
+        <!-- =======User Details End======= -->
+        <!-- =======Mid pic Start======= -->
+        <div class="mid-pic">
+          <div class="mid-pic-text">
+            <span class="discount">20% DISCOUT</span><br />
+            <h1>Summer Collection</h1>
+            <p class="big">STARTING @ $10</p>
+            <a href="">SHOP NOW</a>
+          </div>
+        </div>
+        <!-- =======Mid pic End======= -->
+        <div class="our">
+          <div class="our-header">
+            <h1>Our Services</h1>
+            <hr />
+          </div>
+          <div class="our-body">
+            <div class="our-box our-1">
+              <i class="fa-solid fa-ship"></i>
+              <div class="our-box-text">
+                <p class="our-head">Worldwide Delivery</p>
+                <p class="our-about">For Order Over $100</p>
+              </div>
+            </div>
+            <div class="our-box our-2">
+              <i class="fa-solid fa-ship"></i>
+              <div class="our-box-text">
+                <p class="our-head">Next Day Delivery</p>
+                <p class="our-about">UK Orders Only</p>
+              </div>
+            </div>
+            <div class="our-box our-3">
+              <i class="fa-solid fa-ship"></i>
+              <div class="our-box-text">
+                <p class="our-head">Best Online Support</p>
+                <p class="our-about">Hours:8AM - 11PM</p>
+              </div>
+            </div>
+            <div class="our-box our-4">
+              <i class="fa-solid fa-ship"></i>
+              <div class="our-box-text">
+                <p class="our-head">Return Policy</p>
+                <p class="our-about">Easy & Free Return</p>
+              </div>
+            </div>
+            <div class="our-box our-5">
+              <i class="fa-solid fa-ship"></i>
+              <div class="our-box-text">
+                <p class="our-head">100% Money Back</p>
+                <p class="our-about">For Order Over $100</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =======Bottom Start======= -->
+      <div class="bottom">
+        <div class="card c-1">
+          <img src="./Images/asset 33.jpeg" alt="image" />
+          <p class="card-name">Fashion</p>
+          <p class="card-details">
+            Clothes Retail KPIs 2021 guide for Clothes Executives.
+          </p>
+          <p class="card-bottom-text">By Mr Admin / Apr 06,2022</p>
+        </div>
+        <div class="card c-2">
+          <img src="./Images/asset 34.jpeg" alt="image" />
+          <p class="card-name">Fashion</p>
+          <p class="card-details">
+            Clothes Retail KPIs 2021 guide for Clothes Executives.
+          </p>
+          <p class="card-bottom-text">By Mr Admin / Apr 06,2022</p>
+        </div>
+        <div class="card c-3">
+          <img src="./Images/asset 35.jpeg" alt="image" />
+          <p class="card-name">Fashion</p>
+          <p class="card-details">
+            Clothes Retail KPIs 2021 guide for Clothes Executives.
+          </p>
+          <p class="card-bottom-text">By Mr Admin / Apr 06,2022</p>
+        </div>
+        <div class="card c-4">
+          <img src="./Images/asset 36.jpeg" alt="image" />
+          <p class="card-name">Fashion</p>
+          <p class="card-details">
+            Clothes Retail KPIs 2021 guide for Clothes Executives.
+          </p>
+          <p class="card-bottom-text">By Mr Admin / Apr 06,2022</p>
+        </div>
+      </div>
+      <!-- =======Bottom End======= -->
+      <!-- =======Bottom Main End======= -->
+      <!-- =======Footer Start======= -->
+      <div class="footer-1">
+        <div class="footer-1-text">
+          <p>BRAND DIRECTORY</p>
+          <div class="f-text">
+            <span><strong>Fashion</strong></span>
+            <a >T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+          </div>
+          <div class="f-text">
+            <a><strong>Fashion</strong></a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+          </div>
+          <div class="f-text">
+            <a><strong>Fashion</strong></a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+          </div>
+          <div class="f-text">
+            <a><strong>Fashion</strong></a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+            <a>T-Shirt |</a>
+          </div>
+        </div><br><hr>
+        </div>
+        <div class="footer-2">
+          <div class="footer-2-box">
+            <p><strong>POPULAR CATEGORY</strong></p>
+            <a href="">Fashion</a>
+            <a href="">Electronic</a>
+            <a href="">Cosmetic</a>
+            <a href="">Health</a>
+            <a href="">Watches</a>
+          </div>
+          <div class="footer-2-box">
+            <p><strong>POPULAR CATEGORY</strong></p>
+            <a href="">Fashion</a>
+            <a href="">Electronic</a>
+            <a href="">Cosmetic</a>
+            <a href="">Health</a>
+            <a href="">Watches</a>
+          </div>
+          <div class="footer-2-box">
+            <p><strong>POPULAR CATEGORY</strong></p>
+            <a href="">Fashion</a>
+            <a href="">Electronic</a>
+            <a href="">Cosmetic</a>
+            <a href="">Health</a>
+            <a href="">Watches</a>
+          </div>
+          <div class="footer-2-box">
+            <p><strong>POPULAR CATEGORY</strong></p>
+            <a href="">Fashion</a>
+            <a href="">Electronic</a>
+            <a href="">Cosmetic</a>
+            <a href="">Health</a>
+            <a href="">Watches</a>
+          </div>
+          <div class="footer-2-box">
+            <p><strong>POPULAR CATEGORY</strong></p>
+            <a href="">Fashion</a>
+            <a href="">Electronic</a>
+            <a href="">Cosmetic</a>
+            <a href="">Health</a>
+            <a href="">Watches</a>
+          </div>
+          <div class="footer-2-box">
+            <p><strong>POPULAR CATEGORY</strong></p>
+            <a href="">Fashion</a>
+            <a href="">Electronic</a>
+            <a href="">Cosmetic</a>
+            <a href="">Health</a>
+            <a href="">Watches</a>
+          </div>
+        </div>
+        <div class="footer-3">
+          <div class="footer-3-img">
+            <img src="./Images/asset 37.png" alt="">
+          </div>
+          <p>Copyright © E-Commerce All Right Reserved</p>
+        </div>
+      <!-- =======Footer End======= -->
+      <div class="bottom-icon">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-bag-shopping"></i>
+        <i class="fa-solid fa-house"></i>
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+    </div>
+  </body>
+</html>
