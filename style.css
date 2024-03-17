@@ -11,6 +11,7 @@
     justify-content: space-around;
     align-items: center;
     height: 38px;
+    width: 100vw;
 }
 .head-logo > .fa{
     padding: 6px;
@@ -35,6 +36,7 @@ select{
 .search-bar{
     border: 1px solid black;
     height: 97px;
+    width: 100vw;
     padding: 0px 11% 0px 11%;
     display: flex;
     justify-content: space-between;
